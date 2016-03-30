@@ -1,0 +1,41 @@
+<ion-view>
+  <ion-content class="padding has-subheader">
+    <h2>Bienvenido(a)</h2>
+    <div class="centeredButton">
+      <button class="user_box1">CARLOS ORTEGA</button>
+    </div>
+    <h2>Por favor seleccione:</h2>
+    <div class="list list-inset">
+      <a class="item" style="padding-left: 1px; padding-right: 1px" ui-sref="tab.data">
+        <div class="row">
+          <div class="col col-25 col-center item-text-wrap">MIS DATOS:</div>
+          <div class="col col-75 item-text-wrap">
+            Permite modificar los datos registrados: nombre, placa, entre otros
+          </div>
+        </div>
+      </a>
+      <a class="item" style="padding-left: 1px; padding-right: 1px" ui-sref="tab.agenda">
+        <div class="row">
+          <div class="col col-25 col-center item-text-wrap">AGENDAR:</div>
+          <div class="col col-75 item-text-wrap">
+            Permite agendar un turno para retirar los pedidos
+          </div>
+        </div>
+      </a>
+      <a class="item" style="padding-left: 1px; padding-right: 1px" ui-sref="tab.turn">
+        <div class="row">
+          <div class="col col-25 col-center item-text-wrap">MIS TURNOS:</div>
+          <div class="col col-75 item-text-wrap">
+            Hist&oacute;rico de los agendamientos o turnos solicitados
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="warning_box">
+      <h4>ADVERTENCIA:</h4>
+      <p>
+        Se bloquear&aacute; el agendamiento de pedidos al tercer (3) incumplimiento de la misma placa
+      </p>
+    </div>
+  </ion-content>
+</ion-view>
